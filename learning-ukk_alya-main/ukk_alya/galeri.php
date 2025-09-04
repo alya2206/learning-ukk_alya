@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendor/bs.min.css">
-    <link rel="stylesheet" href="style.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>SMKN 4 Tasikmalaya</title>
+    <title>SMK NEGRI 4 TASIKMALAYA</title>
 </head>
 
 <body>
@@ -24,13 +22,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="profil.php" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Profil</a>
+                            Profil
+                        </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="sejarah.html">sejarah</a></li>
                             <li><a class="dropdown-item" href="visidanmisi.html">visi dan misi</a></li>
@@ -49,66 +48,41 @@
                     <li class="nav-item">
                         <a class="nav-link" href="galeri.php">Galeri</a>
                     </li>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- TUTUP NAV -->
-    <div class="container px-5 mt-3">
-        <div class="row">
+
+    <div class="container">
+        <!-- SECTION GALERI -->
+         <?php
+            $galeri = [
+                'paduan suara.JPG',
+                'bule.JPG',
+                'pendaftaran.JPG',
+            ];
+            $i = 0;
+         ?>
+
+        <section id="galeri" class="text-center">
             <div class="col-lg-12">
-                <h3 class="mb-0">Identitas</h3>
-                <h3 class="text-info">Sekolah</h3>
+                <h2>Galeri SMKN 4 Tasikmalaya</h2>
                 <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <img src="logo_SMK4_Tasikmalaya.png" alt="logo smkn 4 tasikmalaya" width="200px" height="200px">
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <?php while($i < count($galeri)): ?>
+                        <div class="col-lg-3">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    
+                                    <img src="<?=$galeri[$i]?>" alt="" width="300" height="300">
+                                </div>
+                            </div>
+                        </div>
+                        <?php $i++; ?>
+                    <?php endwhile; ?>
     </div>
-    <div class="row ">
-        <div class="col-lg-4 ">
-            <h5>Nama Sekolah</h5>
-            <p>NPSN</p>
-            <p>Alamat</p>
-            <br>
-            <p>Telp/Faks</p>
-            <p>Email</p>
-            <p>Tahun Berdiri/Beroperasi</p>
-            <p>Nomor SK Pendiri</p>
-            <p>Tanggal SK Berdiri</p>
-            <p>Kepemililkan</p>
-        </div>
-
-        <div class="col-lg-1">
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-            <p>:</p>
-
-        </div>
-
-        <div class="col-lg-7">
-
-            <p>SMK Negeri 4 Tasikmalaya</p>
-            <p>20303070</p>
-            <p>Jl Depok RT 02 RW 05,Kel.Sukamenak,Kec.Purbaratu,
-                Kota Tasikmalaya,Provinsi Jawa Barat</p>
-            <p>(0265) 7528981</p>
-            <p>info@smkn4-tsm.sch.id</p>
-            <p>2010</p>
-            <p>420/9/SK-BPPT/2012</p>
-            <P>06 Febuari 2012</P>
-            <p>Pemerintah Daerah</p>
-            </p>
-
-        </div>
+    </div>
     </div>
     <div class="container-fluid  p-3">
     </div>
