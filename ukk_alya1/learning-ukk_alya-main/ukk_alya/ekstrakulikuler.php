@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bs.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>SMKN 4 Tasikmalaya</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-info p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo_SMK4_Tasikmalaya.png" width="70px" height="70px">SMKN 4
+                TASIKMALAYA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="profil.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sejarah.html">sejarah</a></li>
+                            <li><a class="dropdown-item" href="visidanmisi.html">visi dan misi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="strukturorganisasi.html">struktur organisasi</a></li>
+                            <li><a class="dropdown-item" href="identitassekolah.html">Identitas Sekolah</a></li>
+                            <li><a class="dropdown-item" href="kepalasekolah.html">Kepala Sekolah</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ekstrakulikuler.html">Estrakulikuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.php">Galeri</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TUTUP NAV -->
+
+    <section id="galeri" class="text-center">
+        <div class="col-lg-12">
+            <h2>Ekstrakulikuler</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Perisai Diri</h6>
+                            <img src="perisaidiri.JPG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>PMR</h6>
+                            <img src="pmr.JPG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Paskibra</h6>
+                            <img src="paskibra.PNG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Pramuka</h6>
+                            <img src="pramuka.PNG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+
+                <section id="galeri" class="text-center">
+                    <div class="col-lg-12">
+                        <h6></h6>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>PKS</h6>
+                                        <img src="pks.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>PLH</h6>
+                                        <img src="plh.PLH.png" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>IT CLUB</h6>
+                                        <img src="itclub.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>ENGLISH CLUB</h6>
+                                        <img src="englishclub.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <section id="galeri" class="text-center">
+                                <div class="col-lg-12">
+                                    <h6></h6>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>cinematography</h6>
+                                                    <img src="cinematography.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>Bulu Tangkis</h6>
+                                                    <img src="bulutangkis.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>futsal</h6>
+                                                    <img src="futsal.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>VOLLY</h6>
+                                                    <img src="volly.JPEG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid  p-3">
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-lg-12 bg-info-subtle">
+                                                <div class="row">
+                                                    <div class="col-lg-4 ">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h3>SMKN 4 TASIKMALAYA</h3>
+                                                                <P>jl Depok RT02 RW05</P>
+                                                                <P>Kel.Sukamenak Kec.Purbaratu</P>
+                                                                <p>Kota Tasikmalaya</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 ">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h2>Alamat</h2>
+                                                                <iframe
+                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213163631709!2d108.25189907588084!3d-7.329939972091708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755673543639!5m2!1sid!2sid"
+                                                                    width="400" height="300" style="border:0;"
+                                                                    allowfullscreen="" loading="lazy"
+                                                                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h2>Kontak</h2>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <p class="bi bi-telephone m-1"> +62265312059</p>
+                                                        <p class="bi bi-envelope"> info@smkn4-tsm.sch.id</p>
+                                                        <hr>
+                                                        <div class="d flex gap-3">
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-tiktok"></i>
+                                                            <i class="bi bi-youtube"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                                            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                                            crossorigin="anonymous"></script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bs.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>SMKN 4 Tasikmalaya</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-info p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo_SMK4_Tasikmalaya.png" width="70px" height="70px">SMKN 4
+                TASIKMALAYA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="profil.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sejarah.html">sejarah</a></li>
+                            <li><a class="dropdown-item" href="visidanmisi.html">visi dan misi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="strukturorganisasi.html">struktur organisasi</a></li>
+                            <li><a class="dropdown-item" href="identitassekolah.html">Identitas Sekolah</a></li>
+                            <li><a class="dropdown-item" href="kepalasekolah.html">Kepala Sekolah</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ekstrakulikuler.html">Estrakulikuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.php">Galeri</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TUTUP NAV -->
+
+    <section id="galeri" class="text-center">
+        <div class="col-lg-12">
+            <h2>Ekstrakulikuler</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Perisai Diri</h6>
+                            <img src="perisaidiri.JPG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>PMR</h6>
+                            <img src="pmr.JPG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Paskibra</h6>
+                            <img src="paskibra.PNG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Pramuka</h6>
+                            <img src="pramuka.PNG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+
+                <section id="galeri" class="text-center">
+                    <div class="col-lg-12">
+                        <h6></h6>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>PKS</h6>
+                                        <img src="pks.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>PLH</h6>
+                                        <img src="plh.PLH.png" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>IT CLUB</h6>
+                                        <img src="itclub.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>ENGLISH CLUB</h6>
+                                        <img src="englishclub.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <section id="galeri" class="text-center">
+                                <div class="col-lg-12">
+                                    <h6></h6>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>cinematography</h6>
+                                                    <img src="cinematography.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>Bulu Tangkis</h6>
+                                                    <img src="bulutangkis.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>futsal</h6>
+                                                    <img src="futsal.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>VOLLY</h6>
+                                                    <img src="volly.JPEG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid  p-3">
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-lg-12 bg-info-subtle">
+                                                <div class="row">
+                                                    <div class="col-lg-4 ">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h3>SMKN 4 TASIKMALAYA</h3>
+                                                                <P>jl Depok RT02 RW05</P>
+                                                                <P>Kel.Sukamenak Kec.Purbaratu</P>
+                                                                <p>Kota Tasikmalaya</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 ">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h2>Alamat</h2>
+                                                                <iframe
+                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213163631709!2d108.25189907588084!3d-7.329939972091708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755673543639!5m2!1sid!2sid"
+                                                                    width="400" height="300" style="border:0;"
+                                                                    allowfullscreen="" loading="lazy"
+                                                                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h2>Kontak</h2>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <p class="bi bi-telephone m-1"> +62265312059</p>
+                                                        <p class="bi bi-envelope"> info@smkn4-tsm.sch.id</p>
+                                                        <hr>
+                                                        <div class="d flex gap-3">
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-tiktok"></i>
+                                                            <i class="bi bi-youtube"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                                            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                                            crossorigin="anonymous"></script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bs.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>SMKN 4 Tasikmalaya</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-info p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo_SMK4_Tasikmalaya.png" width="70px" height="70px">SMKN 4
+                TASIKMALAYA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="profil.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sejarah.html">sejarah</a></li>
+                            <li><a class="dropdown-item" href="visidanmisi.html">visi dan misi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="strukturorganisasi.html">struktur organisasi</a></li>
+                            <li><a class="dropdown-item" href="identitassekolah.html">Identitas Sekolah</a></li>
+                            <li><a class="dropdown-item" href="kepalasekolah.html">Kepala Sekolah</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="ekstrakulikuler.html">Estrakulikuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.php">Galeri</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TUTUP NAV -->
+
+    <section id="galeri" class="text-center">
+        <div class="col-lg-12">
+            <h2>Ekstrakulikuler</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Perisai Diri</h6>
+                            <img src="perisaidiri.JPG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>PMR</h6>
+                            <img src="pmr.JPG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Paskibra</h6>
+                            <img src="paskibra.PNG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h6>Pramuka</h6>
+                            <img src="pramuka.PNG" alt="" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+
+                <section id="galeri" class="text-center">
+                    <div class="col-lg-12">
+                        <h6></h6>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>PKS</h6>
+                                        <img src="pks.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>PLH</h6>
+                                        <img src="plh.PLH.png" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>IT CLUB</h6>
+                                        <img src="itclub.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <h6>ENGLISH CLUB</h6>
+                                        <img src="englishclub.PNG" alt="" width="300" height="300">
+                                    </div>
+                                </div>
+                            </div>
+                            <section id="galeri" class="text-center">
+                                <div class="col-lg-12">
+                                    <h6></h6>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>cinematography</h6>
+                                                    <img src="cinematography.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>Bulu Tangkis</h6>
+                                                    <img src="bulutangkis.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>futsal</h6>
+                                                    <img src="futsal.PNG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card border-0">
+                                                <div class="card-body">
+                                                    <h6>VOLLY</h6>
+                                                    <img src="volly.JPEG" alt="" width="300" height="300">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid  p-3">
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-lg-12 bg-info-subtle">
+                                                <div class="row">
+                                                    <div class="col-lg-4 ">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h3>SMKN 4 TASIKMALAYA</h3>
+                                                                <P>jl Depok RT02 RW05</P>
+                                                                <P>Kel.Sukamenak Kec.Purbaratu</P>
+                                                                <p>Kota Tasikmalaya</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 ">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h2>Alamat</h2>
+                                                                <iframe
+                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213163631709!2d108.25189907588084!3d-7.329939972091708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755673543639!5m2!1sid!2sid"
+                                                                    width="400" height="300" style="border:0;"
+                                                                    allowfullscreen="" loading="lazy"
+                                                                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="card border-0 bg-info-subtle">
+                                                            <div class="card-body">
+                                                                <h2>Kontak</h2>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <p class="bi bi-telephone m-1"> +62265312059</p>
+                                                        <p class="bi bi-envelope"> info@smkn4-tsm.sch.id</p>
+                                                        <hr>
+                                                        <div class="d flex gap-3">
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-tiktok"></i>
+                                                            <i class="bi bi-youtube"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script
+                                            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                                            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                                            crossorigin="anonymous"></script>
+</body>
+
+</html>
